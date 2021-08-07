@@ -1,1 +1,4 @@
-console.log('Hello from index');
+import 'module-alias/register';
+import run from '@src/core/run';
+
+run()
